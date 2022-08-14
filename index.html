@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+<style>
+
+body{
+    margin: 0px;
+    padding-top: 100px;
+    scroll-behavior:smooth;
+}
+
+p{
+    margin: 0px;
+}
+
+
+#nav{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    padding: 0px 100px;
+    box-sizing: border-box;
+background-color: lightpink;
+
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 1;
+
+
+}
+
+
+#link01{
+    margin: 10px;
+    color: blanchedalmond;
+}
+
+#link02{
+    margin: 10px;
+    color: blanchedalmond;
+}
+#link03{
+    margin: 10px;
+    color: blanchedalmond;
+}
+#link04{
+    color: blanchedalmond;
+}
+
+#block01{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+
+
+#g1{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    
+ 
+    background-image: url('./圖1.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    opacity: 0.8;
+
+}
+
+#標語{
+    width: 200px;
+    height:70px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size:48px; 
+    text-align: center;
+}
+
+
+
+
+#g2{
+    width: 100%;
+    background-color:rgb(110, 110, 133);
+
+    padding: 50px 100px;
+    box-sizing: border-box;
+    
+}
+
+#標語2{
+    width: 300px;
+    background-color:whitesmoke;
+  
+
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+
+   
+}
+
+#標語22{
+    width: 100%;
+    background-color:rgb(173, 173, 202);
+    color:aliceblue;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 30px;
+}
+
+
+
+#g3{
+    width: 100%;
+    height: 70vh;
+    background-color: palevioletred;
+    position: relative;
+
+    background-image: url('./圖4.jpg');
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+#anchor03{
+position: absolute;
+top:-100px;
+left:0px;
+}
+
+
+#標語3{
+
+    width: 300px;
+    height:50px;
+    background-color:rgb(247, 231, 217);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%);
+
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+
+
+
+#g4{
+    width: 100%;
+    background-color:rgb(199, 179, 179);
+    padding: 50px 100px;
+    box-sizing: border-box;
+
+}
+
+#標語4{
+
+    width:100% ;
+    background-color:rgb(211, 188, 188);
+   
+
+    font-size: 18px;
+    line-height: 50px;
+    
+
+}  
+
+
+#g5{
+    width: 100%;
+    height: 80vh;
+    background-color: palevioletred;
+    position: relative;
+
+    background-image: url('./圖3.jpg');
+    background-position:0% 30%;
+    background-size: 50%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+
+}
+
+#anchor05{
+position: absolute;
+top:-100px;
+left:0px;
+}
+
+
+#標語5{
+
+    width: 300px;
+    height: 50px;
+    background-color:rgb(233, 210, 197);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%);
+    
+
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#g6{
+    width: 100%;
+    background-color:rgb(199, 179, 179);
+    padding: 50px 100px;
+    box-sizing: border-box;
+
+}
+
+#標語6{
+
+    width:100% ;
+    background-color:rgb(211, 188, 188);
+   
+
+    font-size: 18px;
+    line-height: 50px;
+}
+
+#g7{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    background-image: url('./圖2.jpg');
+    background-position:0% 35%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#anchor07{
+position: absolute;
+top:-100px;
+left:0px;
+}
+
+
+
+#標語7{
+    width: 200px;
+    height: 60px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    font-size:48px; 
+    text-align: center;
+}
+
+</style>
+</head>
+
+
+<body>
+    <div id="nav">
+        <a href="#block01" id="link01">GOGO首頁</a> 
+        <a href="#anchor03" id="link02">打個招呼</a>
+        <a href="#anchor05" id="link03">來看貓咪</a>
+        <a href="#anchor07" id="link04">嚕嚕貓</a>
+    </div>
+    
+
+
+
+
+    <div id="block01">
+        <div id="g1"></div>
+        <div id="標語">午安</div>
+    </div>
+   
+   
+
+    <div id="g2">
+        <div id="標語2">PARALLAX DEMO</div>
+        <p id="標語22">據研究調查，虎斑貓是最容易受到驚嚇的類型，可能很多人會覺得牠們友好、可愛，但在個性上比較小心，對周遭的環境也比較有警戒心。撇開環境問題，牠們在熟悉的場所會非常活潑、搗亂又狂野，雖然比較有警戒心，但還算是容易親近的花色，一旦是牠認可的對象，翻肚的、呼嚕嚕照樣來！屬於好相處的貓。以公貓居多。活潑外向、愛玩，有點膽小卻又愛逞強，有時對於未知的東西會裝出不害怕的樣子；貪吃，總是給人肥肥胖胖的印象；對於親近的人依賴性很強。三花貓：屬於有「個性」的貓！對於陌生人的適應力強，相當親近人、愛撒嬌，不過好惡分明，對於不喜歡的人會特別兇悍，有著撲朔迷離的性格。需要主人多一些時間陪伴，對主人較黏膩。三毛貓幾乎都是雌性，因基因的關係少有雄性，在日本若有公的三毛貓還會被視為幸運的象徵。</p>
+    </div>
+
+
+    <div id="g3"> 
+        <div id="anchor03"></div>  
+        <div id="標語3">我剛起床ლ(^o^ლ)</div>
+    </div>
+
+
+
+    <div id="g4">
+        <div id="標語4">橘橘日記：平常我的興趣就是咬三花妹妹的屁屁！誰叫他都搶走媽媽的愛！！！
+        </div>
+    </div>
+
+
+    <div id="g5">
+        <div id="anchor05"></div> 
+        <div id="標語5">但又想睡了!ಠωಠ</div>
+    </div>
+
+
+    <div id="g6">
+        <div id="標語6">三花日記：我只是比較會撒嬌，為捨麼葛格要討厭偶～～～</div>
+    </div>
+       
+
+
+    <div id="g7">
+        <div id="anchor07"></div>
+        <div id="標語7">估奈!</div>
+    </div>
+  
+</body>
+</html>
